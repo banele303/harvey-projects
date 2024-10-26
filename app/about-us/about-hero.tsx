@@ -15,6 +15,7 @@ export function AboutHero() {
         text-center 
         relative
          z-20 
+         pb-[2rem]
          bg-clip-text
           text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white">
         <Cover>  About Harvey Projects
