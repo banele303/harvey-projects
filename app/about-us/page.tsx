@@ -10,6 +10,7 @@ import { AboutHero } from "./about-hero";
 import { SecondSection } from "./second-section";
 import { DeckingTypes } from "./decking-types";
 import Navbar from "./ui/Navbar";
+import FRQ from "../decking-services/FRQ";
 
 
 
@@ -48,6 +49,8 @@ const AboutUS = () => {
 <SecondSection/>
 
 <BlurFadeDemo/>
+<FRQ/>
+<Footer/>
     </div>
   );
 };

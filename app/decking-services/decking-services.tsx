@@ -32,7 +32,7 @@ export default function DeckingServices() {
       <main className="container  px-4 py-12">
       <section className="mb-20">
      
-      <div className="relative aspect-[2/1] max-h-[50vh] w-full rounded-xl overflow-hidden pt-[3rem]">
+      <div className="relative aspect-[2/1] max-h-[80vh] md:max-h-[50vh] w-full rounded-xl overflow-hidden pt-[3rem]">
         <Image
           src="/images/decking-hero3.jpg" 
           alt="Beautiful deck with outdoor furniture" 

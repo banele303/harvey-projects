@@ -22,6 +22,7 @@ import Services from "@/components/2ui/services";
 import { DeckingTypes } from "./about-us/decking-types";
 import Navbar from "./about-us/ui/Navbar";
 import TheTestimonials from "@/components/2ui/testimonial";
+import FRQ from "./decking-services/FRQ";
 
 
 
@@ -236,13 +237,15 @@ export default function Home() {
         <LetsMakeThingsHappenSection />
       </section>
 
+
+<FRQ/>
       <footer className="bg-[#fafafa] py-10  px-6 md:px-0 md:mx-auto border-t">
         <div className="flex flex-col  justify-between gap-y-3 xl:w-4/5 2xl:w-[68%] mx-auto">
           <h1 className="text-3xl md:text-5xl font-medium ">
             Huggie Decking
           </h1>
           <div className="grid grid-cols-2 gap-6">
-            <p className="text-left  text-xl  text-gray-500">+27 69 238 9358</p>
+            <p className="text-left  text-xl  text-gray-500">+27 78 41 8819</p>
             <p className="text-left  text-xl  text-gray-500">
               Pool Decking
             </p>
@@ -251,7 +254,7 @@ export default function Home() {
             </p>
 
             <p className="text-left  text-xl  text-gray-500">
-              Huggie@huggiedecking.co.za
+             harveyre4@gmail.com
             </p>
           </div>
         </div>
