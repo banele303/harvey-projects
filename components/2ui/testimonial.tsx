@@ -75,7 +75,7 @@ function TestimonialCard({ name, avatar, rating, text }: TestimonialProps) {
           </div>
         </div>
         <p className={`text-gray-700 transition-all duration-300 ease-in-out ${isHovered ? 'text-primary' : ''}`}>
-          "{text}"
+          {text}
         </p>
       </CardContent>
     </Card>
