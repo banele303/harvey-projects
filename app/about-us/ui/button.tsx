@@ -5,7 +5,7 @@ export function  Button () {
 
         <div>
             <Link
-            href={"/meeting"}
+            href={"/contact-us"}
             className="
   py-3 
   px-6
