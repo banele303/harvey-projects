@@ -23,6 +23,7 @@ import { DeckingTypes } from "./about-us/decking-types";
 import Navbar from "./about-us/ui/Navbar";
 import TheTestimonials from "@/components/2ui/testimonial";
 import FRQ from "./decking-services/FRQ";
+import Footer from "@/components/footer";
 
 
 
@@ -89,6 +90,12 @@ export default function Home() {
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
                 <PiCheckBold className="text-xl text-blue-500" />
                 Pool Decking
+              </p>
+            </BoxReveal>
+            <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
+              <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
+                <PiCheckBold className="text-xl text-blue-500" />
+                Borma
               </p>
             </BoxReveal>
           </div>
@@ -239,33 +246,7 @@ export default function Home() {
 
 
 <FRQ/>
-      <footer className="bg-[#fafafa] py-10  px-6 md:px-0 md:mx-auto border-t">
-        <div className="flex flex-col  justify-between gap-y-3 xl:w-4/5 2xl:w-[68%] mx-auto">
-          <h1 className="text-3xl md:text-5xl font-medium ">
-            Huggie Decking
-          </h1>
-          <div className="grid grid-cols-2 gap-6">
-            <p className="text-left  text-xl  text-gray-500">+27 78 41 8819</p>
-            <p className="text-left  text-xl  text-gray-500">
-              Pool Decking
-            </p>
-            <p className="text-left  text-xl  text-gray-500">
-              Wall decking
-            </p>
-
-            <p className="text-left  text-xl  text-gray-500">
-             harveyre4@gmail.com
-            </p>
-          </div>
-        </div>
-
-        <div className="flex md:justify-center gap-x-4 mt-10">
-          © 2025 Huggie Decking. All Rights Reserved.
-          <Link href="/" className="text-blue-500">
-            Privacy Policy
-          </Link>
-        </div>
-      </footer>
+     <Footer/>
     </div>
   );
 }

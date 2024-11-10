@@ -18,7 +18,7 @@ function LetsMakeThingsHappenSection() {
         </p>
 
         <Link
-          href="/meeting"
+          href="/contact-us"
           className="py-3 
             px-10
         

@@ -21,7 +21,7 @@ export function DeckingTypes() {
                 <div className="">
                     <BackgroundGradient className="rounded-[22px] p-[2.3rem] sm:p-10 bg-white dark:bg-zinc-900">
                         <h3 className="text-[23px] leading-6 text-neutral-600 dark:text-neutral-400 ">
-                        TRANSFORM YOU OUTDOOR LIVING SPACE WITH SYNTHETIC DECK
+                        TRANSFORM YOUR OUTDOOR LIVING SPACE WITH SYNTHETIC DECK
                         </h3>
                         <p className="text-md leading-7 text-neutral-600 dark:text-neutral-400 py-5">
                         Decking allows you to enhance any boring, lethargic entertainment area transforming it into an entertainers dream.

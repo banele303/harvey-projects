@@ -6,6 +6,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react'
 import Navbar from '../about-us/ui/Navbar'
+import Footer from '@/components/footer'
 
 export default function ContactUs() {
   const [formData, setFormData] = useState({
@@ -30,9 +31,9 @@ export default function ContactUs() {
   return (
     <div>
         <Navbar/>
-    <div className="container mx-auto px-4 py-8 md:py-16">
+    <div className="container mx-auto px-[2rem] mt-[7rem] md:px-[11rem] py-8 md:py-16">
       <h1 className="text-3xl md:text-4xl font-bold text-center mb-8">Contact Us</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-[4rem]">
         <div>
           <h2 className="text-2xl font-semibold mb-4">Get in Touch</h2>
           <form onSubmit={handleSubmit} className="space-y-4">
@@ -79,19 +80,19 @@ export default function ContactUs() {
           </form>
         </div>
         <div>
-          <h2 className="text-2xl font-semibold mb-4">Contact Information</h2>
+          <h2 className="text-2xl font-semibold pt-4 mb-4">Contact Information</h2>
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
               <Mail className="w-5 h-5 text-gray-600" />
-              <span>contact@example.com</span>
+              <span>harvey4@gmail.com</span>
             </div>
             <div className="flex items-center space-x-3">
               <Phone className="w-5 h-5 text-gray-600" />
-              <span>+1 (555) 123-4567</span>
+              <span>+27 78 471 8819</span>
             </div>
             <div className="flex items-center space-x-3">
               <MapPin className="w-5 h-5 text-gray-600" />
-              <span>123 Main St, Anytown, USA 12345</span>
+              <span>Johanenesburg South Africa</span>
             </div>
           </div>
           <h3 className="text-xl font-semibold mt-8 mb-4">Follow Us</h3>
@@ -112,6 +113,8 @@ export default function ContactUs() {
         </div>
       </div>
     </div>
+
+    <Footer/>
     </div>
   )
 }

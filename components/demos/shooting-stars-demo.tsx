@@ -30,7 +30,7 @@ const features = [
     icon: "/icons/safe.svg",
     title: "Secure Building",
     description:
-      "Safe and secure building practices. To ensure your our safety and yours",
+      "Safe and secure building practices. To ensure you our safety and yours",
   },
   {
     icon: "/icons/analytics.svg",
