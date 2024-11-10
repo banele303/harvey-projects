@@ -1,7 +1,6 @@
 "use client";
 
-import { AnimatedBeamMultipleOutputDemo } from "@/components/demos/animated-beam-demo";
-import { AnimatedShinyTextDemo } from "@/components/demos/animated-shiny-text-demo";
+
 import BoxRevealDemo from "@/components/demos/box-reveal-demo";
 import { CoverDemo } from "@/components/demos/cover-demo";
 import backgroundImage from "@/public/images/decking-hero3.jpg"
@@ -9,7 +8,7 @@ import { ScrollBasedVelocityDemo } from "@/components/demos/scroll-based-velocit
 import { WordPullUpDemo } from "@/components/demos/word-pull-up-demo";
 import BoxReveal from "@/components/magicui/box-reveal";
 import NumberTicker from "@/components/magicui/number-ticker";
-import { InfiniteMovingLogos } from "@/components/ui/infinite-moving-logos";
+
 import Image from "next/image";
 import Link from "next/link";
 import { PiCheckBold } from "react-icons/pi";
@@ -24,6 +23,7 @@ import Navbar from "./about-us/ui/Navbar";
 import TheTestimonials from "@/components/2ui/testimonial";
 import FRQ from "./decking-services/FRQ";
 import Footer from "@/components/footer";
+import ContactButtons from "./decking-services/contact-buttons";
 
 
 
@@ -47,7 +47,7 @@ export default function Home() {
       <Navbar />
 
 
-
+<ContactButtons/>
 
 
 

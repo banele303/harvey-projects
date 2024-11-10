@@ -12,23 +12,41 @@ interface TestimonialProps {
 
 const testimonials: TestimonialProps[] = [
   {
-    name: "John Doe",
+    name: "Sthabile Nkomo",
     avatar: "/placeholder.svg?height=40&width=40",
     rating: 4.5,
-    text: "This product exceeded my expectations. The user interface is intuitive, and the features are exactly what I needed. Highly recommended!"
+    text: "I hahe been working with Harvey Projects and I must say they are professional when it comes to decking projects and they alsywas on time thanks Erusmus "
   },
   {
     name: "Jane Smith",
     avatar: "/placeholder.svg?height=40&width=40",
     rating: 5,
-    text: "I've been using this for months now, and it has significantly improved my workflow. The customer support is also top-notch!"
+    text: "Since day they have beeen on time whuch I usually strugly with oher contractor that I employ"
   },
   {
-    name: "Alex Johnson",
+    name: "Alex Dube",
     avatar: "/placeholder.svg?height=40&width=40",
     rating: 4,
-    text: "Great product with a lot of potential. There are a few minor issues, but overall it's been a positive experience."
-  }
+    text: "Erusmus and team are amazing at decking work and my small partio looks new and I love it"
+  },
+  {
+    name: "Alex Dube",
+    avatar: "/placeholder.svg?height=40&width=40",
+    rating: 4,
+    text: "Erusmus and team are amazing at decking work and my small partio looks new and I love it"
+  },
+  {
+    name: "Alex Dube",
+    avatar: "/placeholder.svg?height=40&width=40",
+    rating: 4,
+    text: "Erusmus and team are amazing at decking work and my small partio looks new and I love it"
+  },
+  {
+    name: "Alex Dube",
+    avatar: "/placeholder.svg?height=40&width=40",
+    rating: 4,
+    text: "Erusmus and team are amazing at decking work and my small partio looks new and I love it"
+  },
 ]
 
 function TestimonialCard({ name, avatar, rating, text }: TestimonialProps) {

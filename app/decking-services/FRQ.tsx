@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function FRQ() {
     const [activeAccordion, setActiveAccordion] = useState<number | null>(null)
@@ -58,9 +59,11 @@ export default function FRQ() {
                         <CardContent className="p-8 text-center">
                             <h2 className="text-3xl font-bold mb-4">Ready to Start Your Dream Deck Project?</h2>
                             <p className="mb-6">Contact us today for a free consultation and quote!</p>
-                            <Button variant="secondary" size="lg">
+                         <Link href="/contact-us">
+                         <Button variant="secondary" size="lg">
                                 Get Started
                             </Button>
+                         </Link>   
                         </CardContent>
                     </Card>
                 </section>
