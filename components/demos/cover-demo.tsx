@@ -2,6 +2,7 @@ import React from "react";
 import { Cover } from "@/components/ui/cover";
 import { AnimatedShinyTextDemo } from "./animated-shiny-text-demo";
 import Link from "next/link";
+import { Button } from "@/app/about-us/ui/button";
 
 export function CoverDemo() {
   return (
@@ -32,7 +33,7 @@ export function CoverDemo() {
                    "
         >
           <Link
-            href="/meeting"
+            href="/contact-us"
             className="py-3 
             px-4
             md:px-16
@@ -52,24 +53,12 @@ export function CoverDemo() {
           >
             Get A Quote
           </Link>
-          <Link
-            href={"/showcase"}
-            className="
-              bg-white
-             
-                 text-gray-500
-   py-3 
-   px-4 md:px-10
-    text-[16px]
-  md:text-lg 
-     
-        border-4
-        border-black
-        rounded-[6px]
-        hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)]"
-          >
-            Call Now
-          </Link>
+          <div className="md:ml-3 py-2 px-6  border-5 border-sky-900 cursor-pointer text-[19px] font-Poppins text-slate-200 font-bold">
+            <a href="tel:+27 78 41 8819" className="lg:flex">
+              Call Now
+
+            </a>
+          </div>
         </div>
       </div>
 
