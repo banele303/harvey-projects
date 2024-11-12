@@ -8,7 +8,7 @@ const services = [
     description: "Decking allows you to enhance any boring, lethargic entertainment area transforming it into an entertainers dream.",
   },
   {
-    icon: "/images/p3.jpg",
+    icon: "/images/w2.jpg",
     title: "Wall Clanging",
     description: "We do wall cladding on outside wall and inside walls with Composite or Timber cladding.",
   },

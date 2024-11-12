@@ -2,7 +2,7 @@
 
 import React from "react";
 import Pool from "../../public/images/pool3.jpg"
-import Walldecking from "../../public/images/ww2.jpg"
+import Walldecking from "../../public/images/wall-deck.jpg"
 import Decking from "../../public/images/main-hero.jpg"
 import P1 from "../../public/images/p1.jpg"
 import Lights from "../../public/images/img4.jpg"

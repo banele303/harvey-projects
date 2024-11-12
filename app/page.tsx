@@ -1,7 +1,7 @@
 "use client";
 
 
-import BoxRevealDemo from "@/components/demos/box-reveal-demo";
+
 import { CoverDemo } from "@/components/demos/cover-demo";
 import backgroundImage from "@/public/images/decking-hero3.jpg"
 import { ScrollBasedVelocityDemo } from "@/components/demos/scroll-based-velocity-demo";
@@ -10,10 +10,10 @@ import BoxReveal from "@/components/magicui/box-reveal";
 import NumberTicker from "@/components/magicui/number-ticker";
 
 import Image from "next/image";
-import Link from "next/link";
+
 import { PiCheckBold } from "react-icons/pi";
 import { Link as ScrollLink, Element } from "react-scroll";
-import { IconStarFilled } from "@tabler/icons-react";
+
 import { ShootingStarsAndStarsBackgroundDemo } from "@/components/demos/shooting-stars-demo";
 import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen";
 import Services from "@/components/2ui/services";
@@ -24,6 +24,7 @@ import TheTestimonials from "@/components/2ui/testimonial";
 import FRQ from "./decking-services/FRQ";
 import Footer from "@/components/footer";
 import ContactButtons from "./decking-services/contact-buttons";
+
 
 
 
@@ -47,7 +48,7 @@ export default function Home() {
       <Navbar />
 
 
-<ContactButtons/>
+      <ContactButtons />
 
 
 
@@ -146,7 +147,7 @@ export default function Home() {
         className="
            text-2xl md:text-4xl my-6 md:my-10 md:text-center px-[2rem] font-extrabold text-blue-300">
 
-        WOODEN PATIO DECKING, PERGOLAS & BALUSTRADES
+        WOODEN PATIO DECKING, PERGOLAS , BALUSTRADES & Borma
       </h3>
 
       <section className="grid grid-cols-1 md:grid-cols-2 gap-2 mx-auto my-[3rem]">
@@ -245,8 +246,8 @@ export default function Home() {
       </section>
 
 
-<FRQ/>
-     <Footer/>
+      <FRQ />
+      <Footer />
     </div>
   );
 }

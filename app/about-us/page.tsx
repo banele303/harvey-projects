@@ -1,16 +1,12 @@
 import { BlurFadeDemo } from "@/components/demos/blur-fade-demo";
 import Footer from "@/components/footer";
-import WordFadeIn from "@/components/magicui/word-fade-in";
-import ShowcaseNavbar from "@/components/showcase-navbar";
-import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen";
 import Image from "next/image";
-import Link from "next/link";
 import backgroundImage from "@/public/images/main-hero.jpg"
-import { AboutHero } from "./about-hero";
-import { SecondSection } from "./second-section";
-import { DeckingTypes } from "./decking-types";
+
+
 import Navbar from "./ui/Navbar";
 import FRQ from "../decking-services/FRQ";
+import AboutHarvey from "./about-havery";
 
 
 
@@ -44,9 +40,8 @@ const AboutUS = () => {
 
 
 
-<AboutHero/>
+<AboutHarvey/>
 
-<SecondSection/>
 
 <BlurFadeDemo/>
 <FRQ/>
