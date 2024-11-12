@@ -45,7 +45,8 @@ export function  BlurFadeDemo() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: idx * 0.1 }}
           >
-            <Dialog>
+           
+           <Dialog>
               <DialogTrigger asChild>
                 <div className="relative overflow-hidden rounded-lg cursor-pointer group">
                   <Image
@@ -73,7 +74,12 @@ export function  BlurFadeDemo() {
                     variant="ghost"
                     size="icon"
                     className="absolute top-2 right-2 text-white bg-black bg-opacity-50 hover:bg-opacity-75"
-                    onClick={() => document.querySelector('button[aria-label="Close"]')?.click()}
+                    onClick={() => {
+                      const closeButton = document.querySelector('button[aria-label="Close"]') as HTMLButtonElement | null;
+                      if (closeButton) {
+                        closeButton.click();
+                      }
+                    }}
                   >
                     <X className="h-4 w-4" />
                   </Button>
