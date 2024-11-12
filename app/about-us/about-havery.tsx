@@ -96,7 +96,7 @@ export default function AboutHarvey() {
                     transition={{ duration: 0.5, delay: 0.9 }}
                 >
                     <h2 className="text-3xl font-bold mb-4">Ready to Transform Your Space?</h2>
-                    <p className="mb-8 text-lg">Let's bring your decking and ceiling dreams to life.</p>
+                    <p className="mb-8 text-lg">Let&apos;s bring your decking and ceiling dreams to life.</p>
                     <div className="max-w-[18rem] mx-auto">
 
                         <a
