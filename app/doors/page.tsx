@@ -224,7 +224,7 @@ export default function Home() {
                     <CardDescription>{testimonial.role}</CardDescription>
                   </CardHeader>
                   <CardContent>
-                    <p>"{testimonial.comment}"</p>
+                    <p>&quot;{testimonial.comment}&quot;</p>
                   </CardContent>
                   <CardFooter>
                     <div className="flex text-yellow-400">
@@ -264,7 +264,7 @@ export default function Home() {
         <section className="py-16 bg-gray-900 text-white">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold mb-4">Ready to Upgrade Your Doors?</h2>
-            <p className="text-xl mb-8">Contact us now for a free consultation and quote. Don't forget about our special 20% discount offer!</p>
+            <p className="text-xl mb-8">Contact us now for a free consultation and quote. Don&apos;t forget about our special 20% discount offer!</p>
             <div className="space-x-4">
               <Button size="lg" onClick={() => window.location.href='https://wa.me/2778418819'}>
                 <MessageCircle className="mr-2" />
