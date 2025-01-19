@@ -24,7 +24,7 @@ export default function Home() {
           <div className="flex items-center space-x-4">
             <a href="tel:+1234567890" className="text-gray-600 hover:text-gray-800">
               <PhoneCall className="inline-block mr-1" size={20} />
-              +27 78 418 819
+              +27 78 471 8819
             </a>
           </div>
         </div>
@@ -47,21 +47,21 @@ export default function Home() {
             <h1 className="text-3xl sm:text-5xl  py-4 font-bold mb-4 animate-fade-in-up">
               Transform Your Home with Expert Door Solutions
             </h1>
- <section className="py-16 bg-blue-600 text-white rounded-md mb-4">
-          <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl font-bold mb-4">Limited Time Offer!</h2>
-            <p className="text-xl mb-8">Get an exclusive 20% discount for our first 10 clients</p>
-            <div className="bg-white text-blue-600 p-6 rounded-lg shadow-lg inline-block">
-              <h3 className="text-2xl font-bold mb-2">SAVE 20%</h3>
-              <p className="mb-4">Use code: HURVEY50</p>
-              <Button size="lg" variant="secondary" onClick={() => window.location.href='https://wa.me/2778418819'}>
-                Claim Offer via WhatsApp
-              </Button>
-            </div>
-            <p className="mt-6 text-sm">Offer valid for new customers only. 
-              Terms and conditions apply.</p>
-          </div>
-        </section>
+            <section className="py-16 bg-blue-600 text-white rounded-md mb-4">
+              <div className="container mx-auto px-4 text-center">
+                <h2 className="text-3xl font-bold mb-4">Limited Time Offer!</h2>
+                <p className="text-xl mb-8">Get an exclusive 20% discount for our first 10 clients</p>
+                <div className="bg-white text-blue-600 p-6 rounded-lg shadow-lg inline-block">
+                  <h3 className="text-2xl font-bold mb-2">SAVE 20%</h3>
+                  <p className="mb-4">Use code: HURVEY50</p>
+                  <Button size="lg" variant="secondary" onClick={() => window.location.href = 'https://wa.me/27784718819'}>
+                    Claim Offer via WhatsApp
+                  </Button>
+                </div>
+                <p className="mt-6 text-sm">Offer valid for new customers only.
+                  Terms and conditions apply.</p>
+              </div>
+            </section>
 
 
 
@@ -70,12 +70,12 @@ export default function Home() {
               Elevate your home&apos;s security, style, and energy efficiency with our professional 
               door installation and maintenance services
             </p> */}
-            <div className="space-x-4 animate-fade-in-up items-center mt-[4rem] animation-delay-400">
-              <Button size="lg" onClick={() => window.location.href='https://wa.me/2778418819'}>
+            <div className="space-x-4 animate-fade-in-up items-center mt-[4rem] mx-auto justify-center animation-delay-400">
+              <Button size="lg" onClick={() => window.location.href = 'https://wa.me/27784718819'}>
                 <MessageCircle className="mr-2" />
                 WhatsApp Now
               </Button>
-              <Button size="lg" variant="outline" className="bg-orange" onClick={() => window.location.href='tel:+2778418819'}>
+              <Button size="lg" variant="outline" className="bg-orange" onClick={() => window.location.href = 'tel:+27784718819'}>
                 <PhoneCall className="mr-2" />
                 Call Us
               </Button>
@@ -93,7 +93,7 @@ export default function Home() {
                   icon: Tool,
                   title: 'Expert Installation',
                   description: 'Professional door installation for all types of doors, ensuring perfect fit and functionality',
-                  image: '/door/door1.jpg',
+                  image: '/d3.jpg',
                   details: [
                     'Precise measurements and custom fitting',
                     'Wide range of door styles and materials',
@@ -117,7 +117,7 @@ export default function Home() {
                   icon: Shield,
                   title: 'Swift Repair Services',
                   description: 'Quick and efficient repair services for any door issues, restoring security and functionality',
-                  image: '/door/door3.jpg',
+                  image: '/door/door4.jpg',
                   details: [
                     '24/7 emergency repair services',
                     'Replacement of damaged components',
@@ -164,11 +164,11 @@ export default function Home() {
             <div className="bg-white text-blue-600 p-6 rounded-lg shadow-lg inline-block">
               <h3 className="text-2xl font-bold mb-2">SAVE 20%</h3>
               <p className="mb-4">Use code: HURVEY50</p>
-              <Button size="lg" variant="secondary" onClick={() => window.location.href='https://wa.me/2778418819'}>
+              <Button size="lg" variant="secondary" onClick={() => window.location.href = 'https://wa.me/27784718819'}>
                 Claim Offer via WhatsApp
               </Button>
             </div>
-            <p className="mt-6 text-sm">Offer valid for new customers only. 
+            <p className="mt-6 text-sm">Offer valid for new customers only.
               Terms and conditions apply.</p>
           </div>
         </section>
@@ -183,10 +183,10 @@ export default function Home() {
               </div>
               <div>
                 <h3 className="text-2xl font-semibold mb-4">Your Trusted Door Experts Since 2005</h3>
-                <p className="mb-6">At Run Doors, we&apos;ve been enhancing homes and businesses 
+                <p className="mb-6">At Run Doors, we&apos;ve been enhancing homes and businesses
                   with top-quality door solutions for over
-                   15 years. Our commitment to excellence, attention to
-                    detail, and customer-first approach sets us apart in the industry.</p>
+                  15 years. Our commitment to excellence, attention to
+                  detail, and customer-first approach sets us apart in the industry.</p>
                 <div className="grid grid-cols-2 gap-4">
                   {[
                     { icon: Users, title: 'Expert Team', description: 'Skilled technicians with years of experience' },
@@ -266,11 +266,11 @@ export default function Home() {
             <h2 className="text-3xl font-bold mb-4">Ready to Upgrade Your Doors?</h2>
             <p className="text-xl mb-8">Contact us now for a free consultation and quote. Don&apos;t forget about our special 20% discount offer!</p>
             <div className="space-x-4">
-              <Button size="lg" onClick={() => window.location.href='https://wa.me/2778418819'}>
+              <Button size="lg" onClick={() => window.location.href = 'https://wa.me/27784718819'}>
                 <MessageCircle className="mr-2" />
                 WhatsApp Us
               </Button>
-              <Button size="lg" variant="outline" className="bg-blue-800" onClick={() => window.location.href='tel:+2778418819'}>
+              <Button size="lg" variant="outline" className="bg-blue-800" onClick={() => window.location.href = 'tel:+27784718819'}>
                 <PhoneCall className="mr-2" />
                 Call Now
               </Button>
@@ -297,9 +297,12 @@ export default function Home() {
             </div>
             <div>
               <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
-              <p>123 Main Street, Anytown, 12345</p>
-           
-              <p>Phone: +27 784 18819</p>
+              <p>6261 Yaounde Crescent
+                Cosmo city ext 6
+                Randburg
+                2188</p>
+
+              <p>Phone: +27 78 471 8819</p>
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-gray-700 text-center">

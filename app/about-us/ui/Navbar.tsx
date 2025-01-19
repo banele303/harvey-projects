@@ -63,8 +63,8 @@ const Navbar = () => {
                 </li>
 
                 <li className="md:ml-3 py-2 px-6  border-5 border-sky-900 cursor-pointer text-[19px] font-Poppins text-slate-200 font-bold">
-                  <a href="tel:+27 78 41 8819" className="lg:flex">
-                    <Button variant="destructive"> Call Now +27 78 41 8819</Button>
+                  <a href="tel:+27 78 471 8819" className="lg:flex">
+                    <Button variant="destructive"> Call Now +27 78 471 8819</Button>
 
                   </a>
                 </li>
@@ -110,8 +110,8 @@ const Navbar = () => {
 
             <div className="flex flex-col my-4">
               <div className="md:ml-3 py-2 px-6  border-5 border-sky-900 cursor-pointer text-[19px] font-Poppins text-slate-200 font-bold">
-                <a href="tel:+27 78 41 8819" className="lg:flex">
-                  <Button variant="destructive"> Call Now +27 78 41 8819</Button>
+                <a href="tel:+27 78 471 8819" className="lg:flex">
+                  <Button variant="destructive"> Call Now +27 78 471 8819</Button>
 
                 </a>
               </div>
